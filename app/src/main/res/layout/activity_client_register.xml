@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <View
+        android:id="@+id/shape"
+        android:layout_width="309.41dp"
+        android:layout_height="262dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="0dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="-74dp"
+        android:background="@drawable/shape"/>
+
+    <TextView
+        android:id="@+id/welcome_onb"
+        android:layout_width="323dp"
+        android:layout_height="27dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="12dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="201dp"
+        android:text="@string/welcome_onb"
+        android:textAppearance="@style/welcome_onb"
+        android:gravity="center_horizontal|center_vertical"
+        />
+
+    <TextView
+        android:id="@+id/let_s_help_"
+        android:layout_width="295dp"
+        android:layout_height="25dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="35dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="245dp"
+        android:text="@string/let_s_help_"
+        android:textAppearance="@style/let_s_help_"
+        android:gravity="center_horizontal|top"
+        />
+
+    <EditText
+        android:id="@+id/nameclreg"
+        android:layout_width="297dp"
+        android:layout_height="57dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="35dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="336dp"
+        android:background="@drawable/rectangle_2"
+        android:hint="Enter name"
+        android:inputType="textPersonName"
+         />
+
+    <EditText
+        android:id="@+id/emailclreg"
+        android:layout_width="297dp"
+        android:layout_height="57dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="35dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="408dp"
+        android:background="@drawable/rectangle_2"
+        android:hint="Enter email"
+        android:inputType="textEmailAddress"
+       />
+
+    <EditText
+        android:id="@+id/pwdclreg"
+        android:layout_width="297dp"
+        android:layout_height="57dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="35dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="480dp"
+        android:background="@drawable/rectangle_2"
+        android:hint="Enter password"
+        android:inputType="textPassword" />
+
+    <EditText
+        android:id="@+id/cnfpwdclreg"
+        android:layout_width="297dp"
+        android:layout_height="57dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="35dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="552dp"
+        android:background="@drawable/rectangle_2"
+        android:hint="Confirm password"
+        android:inputType="textPassword" />
+
+    <Button
+        android:id="@+id/btnregcl"
+        android:layout_width="284dp"
+        android:layout_height="48.69dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="46dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="654dp"
+        android:background="@android:color/holo_blue_dark"
+        android:text="Register"
+        style="@style/HeroButton" />
+
+    <TextView
+        android:id="@+id/already_hav"
+        android:layout_width="295dp"
+        android:layout_height="25dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="46dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="716dp"
+        android:text="@string/already_hav"
+        android:textAppearance="@style/already_hav"
+        android:gravity="center_horizontal|top"
+        />
+
+</RelativeLayout>

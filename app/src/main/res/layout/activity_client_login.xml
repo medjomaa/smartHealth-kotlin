@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <!-- Shape View -->
+    <View
+        android:id="@+id/shape"
+        android:layout_width="309.41dp"
+        android:layout_height="262dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="0dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="-74dp"
+        android:background="@drawable/shape"/>
+
+    <!-- Undraw Mobi Image -->
+    <View
+        android:id="@+id/undraw_mobi"
+        android:layout_width="168dp"
+        android:layout_height="142dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="98dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="202dp"
+        android:background="@drawable/undraw_mobi"/>
+
+    <!-- Get Things Done Text -->
+
+
+    <TextView
+        android:id="@+id/get_things_"
+        android:layout_width="323dp"
+        android:layout_height="37dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="70dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="380dp"
+        android:text="Get thing done with us"
+        android:textSize="25sp"
+        android:textColor="#000000"
+        />
+
+
+    <!-- First login client -->
+    <Button
+        android:id="@+id/buttonlogcl"
+        android:layout_width="284dp"
+        android:layout_height="48.69dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="60dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="500dp"
+        android:background="@android:color/holo_blue_dark"
+        android:text="Login"
+        style="@style/HeroButton"/>
+
+    <!-- Second register client -->
+    <Button
+        android:id="@+id/buttonregcl"
+        android:layout_width="284dp"
+        android:layout_height="48.69dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="60dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="600dp"
+        android:background="@android:color/holo_blue_dark"
+        android:text="Register"
+        style="@style/HeroButton"/>
+
+
+</RelativeLayout>

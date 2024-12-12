@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <View
+        android:id="@+id/shape"
+        android:layout_width="309.41dp"
+        android:layout_height="262dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="0dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="-74dp"
+        android:background="@drawable/shape"
+        />
+
+    <TextView
+        android:id="@+id/welcome_bac"
+        android:layout_width="323dp"
+        android:layout_height="27dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="12dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="201dp"
+        android:text="@string/welcome_bac"
+        android:textAppearance="@style/welcome_bac"
+        android:gravity="center_horizontal|center_vertical"
+        />
+
+    <RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/undraw_home"
+        android:layout_width="127dp"
+        android:layout_height="136dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="114dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="250dp"
+        android:clipToOutline="true"
+        android:background="@drawable/undraw_home"
+        />
+
+    <EditText
+        android:id="@+id/emailcllog"
+        android:layout_width="297dp"
+        android:layout_height="57dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="36dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="408dp"
+        android:background="@drawable/rectangle_2"
+        android:hint="Enter email"
+         />
+
+    <EditText
+        android:id="@+id/pwdcllog"
+        android:layout_width="297dp"
+        android:layout_height="57dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="36dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="487dp"
+        android:background="@drawable/rectangle_2"
+        android:hint="Enter password"
+        android:inputType="textPassword"
+        />
+
+    <TextView
+        android:id="@+id/forget_pass"
+        android:layout_width="123dp"
+        android:layout_height="21dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="126dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="580dp"
+        android:text="@string/forget_pass"
+        android:textAppearance="@style/forget_pass"
+        android:gravity="center_horizontal|top"
+        />
+
+    <Button
+        android:id="@+id/btnlogcl"
+        android:layout_width="284dp"
+        android:layout_height="48.69dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="46dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="654dp"
+        android:background="@android:color/holo_blue_dark"
+        android:text="Login"
+        style="@style/HeroButton" />
+
+    <TextView
+        android:id="@+id/not_have_an"
+        android:layout_width="295dp"
+        android:layout_height="25dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="46dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="716dp"
+        android:text="@string/not_have_an"
+        android:textAppearance="@style/not_have_an"
+        android:gravity="center_horizontal|top"
+        />
+
+</RelativeLayout>
