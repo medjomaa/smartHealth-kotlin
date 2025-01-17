@@ -1,4 +1,4 @@
-package com.example.smartheath
+package com.example.smartheath.view
 
 
 import android.content.Intent
@@ -8,6 +8,7 @@ import android.view.animation.Animation
 import android.view.animation.AnimationUtils
 import android.widget.ImageView
 import androidx.appcompat.app.AppCompatActivity
+import com.example.smartheath.R
 
 class SplashActivity : AppCompatActivity() {
 

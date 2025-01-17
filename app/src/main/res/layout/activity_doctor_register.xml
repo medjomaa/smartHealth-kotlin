@@ -11,7 +11,7 @@
         android:layout_marginLeft="0dp"
         android:layout_alignParentTop="true"
         android:layout_marginTop="-74dp"
-        android:background="@drawable/shape2"/>
+        android:background="@drawable/shape1"/>
 
     <TextView
         android:id="@+id/welcome_onb"

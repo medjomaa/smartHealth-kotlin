@@ -1,5 +1,7 @@
 [versions]
 agp = "8.6.0"
+constraintlayout = "2.2.0"
+constraintlayoutCompose = "1.1.0"
 kotlin = "1.9.0"
 coreKtx = "1.13.1"
 junit = "4.13.2"
@@ -13,6 +15,8 @@ firebaseFirestoreKtx = "25.1.1"
 firebaseDatabaseKtx = "21.0.0"
 
 [libraries]
+androidx-constraintlayout = { module = "androidx.constraintlayout:constraintlayout", version.ref = "constraintlayout" }
+androidx-constraintlayout-compose = { module = "androidx.constraintlayout:constraintlayout-compose", version.ref = "constraintlayoutCompose" }
 androidx-core-ktx = { group = "androidx.core", name = "core-ktx", version.ref = "coreKtx" }
 junit = { group = "junit", name = "junit", version.ref = "junit" }
 androidx-junit = { group = "androidx.test.ext", name = "junit", version.ref = "junitVersion" }
